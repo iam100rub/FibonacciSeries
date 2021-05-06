@@ -15,7 +15,7 @@ namespace FibonacciSeries
         {
             if (count <= length)
             {
-                Console.Write("{0} ", firstnumber);
+                Console.Write("{0}, ", firstnumber);
                 Fibonacci(secondnumber, firstnumber + secondnumber, count + 1, length);
             }
         }
